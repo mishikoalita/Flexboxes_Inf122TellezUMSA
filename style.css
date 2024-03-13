@@ -1,0 +1,194 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    background-color: cadetblue;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: large;
+}
+.box1{
+    background-color: rgb(232, 113, 133); 
+    padding: 5px;
+    width: 300px;
+    height: 500px;
+    margin: 2px;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}
+.box1a{
+    flex: 1 0 200px;
+    background-color: rgb(232, 113, 133); 
+    border-color: black;
+    height: 200px;
+    margin: 5px;
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+.box1aitem{
+    flex: 1 0 50px;
+    background-color: beige;
+    border-style: dotted;
+    border-color: black;
+    text-align: center;
+    margin: 5px;
+}
+.box1bitem{
+    flex: 1 0 50px;
+    background-color: beige;
+    border-style: dotted;
+    border-color: black;
+    width: 150px;
+    text-align: center;
+    margin: 5px;
+}
+.box1itemb1{
+    flex: 1 0 50px;
+    background-color: beige;
+    border-style: dotted;
+    border-color: black;
+    text-align: center;
+    margin: 5px;
+}
+.box1itemb2{
+    flex: 1 0 50px;
+    background-color: beige;
+    border-style: dotted;
+    border-color: black;
+    text-align: center;
+    margin: 5px;
+}
+
+.box1b{
+    flex: 1 0 200px;
+    background-color: rgb(232, 113, 133); 
+    border-color: black;
+    margin: 5px;
+    height: 200px;
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+
+}
+.box2{
+    background-color: pink; 
+    width: 400px;
+    height: 500px;
+    margin: 2px;
+    flex-grow: 4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box2item{
+    background-color: blueviolet;
+    border-style: dotted;
+    border-color: black;
+    flex-basis: 150px;
+    height: 150px;
+    text-align: center;
+    flex-shrink: 2;
+}
+.box2 .box2item{
+    display: block;
+    text-align: center;
+}
+.box3{
+    background-color: rgb(229, 96, 118); 
+    width: 300px;
+    height: 500px;
+    margin: 2px;
+    flex-grow: 2;
+}
+.box3a{
+    flex: 1 0 200px;
+    margin: 5px;
+    height: 100px;
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.box3aitem1{
+    flex: 1 0 100px;
+    background-color: beige;
+    border-style: dotted;
+    border-color: black;
+    text-align: center;
+    margin: 10px;
+}
+.box3b{
+    flex: 1 0 200px;
+    margin: 10px;
+    height: 125px;
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.box3bitem1{
+    flex: 1 0 50px;
+    background-color: beige;
+    border-style: dotted;
+    border-color: black;
+    text-align: center;
+    margin: 5px;
+}
+.box3bitem2{
+    flex: 1 0 50px;
+    background-color: beige;
+    border-style: dotted;
+    border-color: black;
+    text-align: center;
+    margin: 5px;
+}
+.box3c{
+    flex: 1 0 200px;
+    margin: 5px;
+    height: 100px;
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.box3citem1{
+    flex: 1 0 100px;
+    background-color: beige;
+    border-style: dotted;
+    border-color: black;
+    text-align: center;
+    margin: 10px;
+}
+.box3d{
+    flex: 1 0 200px;
+    margin: 5px;
+    height: 125px;
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.box3ditem1{
+    flex: 1 0 50px;
+    background-color: beige;
+    border-style: dotted;
+    border-color: black;
+    text-align: center;
+    margin: 5px;
+}
+.box3ditem2{
+    flex: 1 0 50px;
+    background-color: beige;
+    border-style: dotted;
+    border-color: black;
+    text-align: center;
+    margin: 5px;
+}
+
+
+
