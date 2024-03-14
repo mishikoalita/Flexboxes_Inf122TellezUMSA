@@ -86,18 +86,24 @@ body{
     flex-grow: 4;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+}
+.box2a, .box2b, .box2c{
+    width: 100px;
 }
 .box2item{
     background-color: blueviolet;
     border-style: dotted;
     border-color: black;
     flex-basis: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     text-align: center;
     flex-shrink: 2;
+    margin: 10px;
 }
+
 .box2 .box2item{
     display: block;
     text-align: center;
